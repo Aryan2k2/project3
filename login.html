@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <table cellspacing="0" cellpadding="0" width="780" border="0">
+            <tbody>
+                <tr>
+                    <td height="115">&nbsp;
+
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="845" cellspacing="0" cellpadding="1" border="0" align="center">
+
+            <tbody>
+                <tr>
+                    <!-- code for left panel-->
+                    <td width="190" valign="top" colspan="2">
+                        <table cellspacing="0" cellpadding="0" width="190" border="0">
+                            <tbody>
+                                <tr>
+                                    <td height="2"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </td>
+
+                    <!-- code for center panel-->
+                    <td width="465" valign="top" colspan="2" align="center">
+                        <br><br>
+
+                        <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
+                            <form action="https://webmail.rediffmailpro.com/cgi-bin/progold/loginepro.cgi" method="post"
+                                onsubmit="javascript:setCookie('username',document.prologinform.user.value,7);"
+                                name="prologinform"></form>
+                            <input name="FormName" type="hidden" value="existing">
+                            <input type="hidden" name="reqsig" value="PCWEB">
+                            <tbody>
+                                <tr align="center">
+                                    <td width="465" colspan="2" height="40">
+                                        <h3>Login</h3>
+                                        <font face="arial" size="-1" color="#000000"><b>Please enter your login
+                                                details.</b></font>
+
+                                    </td>
+                                </tr>
+                                <tr align="left">
+                                    <td width="65" height="30">
+                                        <font face="arial" size="-1" color="#000000">Email id</font>
+                                    </td>
+                                    <td width="400">
+                                        <input type="hidden" name="user" value=""><input type="text" name="custom_input"
+                                            size="15" value="" placeholder="Enter your email">
+
+
+                                        <font face="arial" size="-1"><b>@arohaninfocare.com</b></font>
+
+
+                                    </td>
+                                </tr>
+                                <input type="hidden" name="domain" value="arohaninfocare.com" id="domain">
+                                <input type="hidden" name="newBuilt" value="1">
+                                <tr align="left">
+                                    <td height="30">
+                                        <font face="arial" size="-1" color="#000000">Password</font>
+                                    </td>
+                                    <td><input type="password" name="passwd" size="15" placeholder="Enter your password"></td>
+                                </tr>
+                                <tr align="left">
+                                    <td colspan="3"><input type="checkbox" name="remember" value="1" checked="">
+                                        <font face="arial" size="-1">&nbsp;Remember my Email ID</font>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td height="50">&nbsp;</td>
+                                    
+                                    <td><!--<input type="image"
+                                            src="//webmail.rediffmailpro.com/icons/rediff_progold/met_go_but.gif"
+                                            onclick="javascript:return validate();"> -->
+                                        <input type="submit" style="background-color: rgb(198, 237, 255);">
+                                    </td>
+                                  
+                                </tr>
+
+                                <tr>
+                                    <td height="50">&nbsp;</td>
+                                    <td><a href="javascript:PasswdRemindWin()">Forgot your Password?</a></td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                        <br><br>
+                    </td>
+                    <!-- code for right panel-->
+                    <td width="190" colspan="2" valign="top">
+
+                        <table cellspacing="0" cellpadding="0" width="190" border="0">
+                            <tbody>
+                                <tr>
+                                    <td height="2"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <!------------------------------
+        <h2>Login</h2>
+        <h4>Please Enter Your Login Details</h4>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="email">Email ID:</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email" required>
+                <span class="email-suffix">@arohaninfocare.com</span>
+            </div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <div class="remember-me">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Remember my Email ID</label>
+            </div>
+            <button type="submit" style="background-color: rgb(198, 237, 255);">Submit</button>
+            <p><a href="#">Forgot your Password?</a></p>
+        </form> ---------------------->
+    </div>
+</body>
+
+</html>

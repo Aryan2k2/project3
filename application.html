@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application - Arohan Infocare</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .cards-box {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 100%;
+            height: 150px;
+        }
+
+        .cards-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+
+
+        .cards-box:hover .service-icon {
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+
+        .cards-title {
+            font-size: 14px;
+            color: #6c757d;
+        }
+
+        .tech:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <!-- Navigation Bar -->
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html" target="_blank">
+            <img src="bn.png" alt="Arohan Infocare Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html" target="_blank">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="service.html" id="navbarDropdown" aria-haspopup="true"
+                        aria-expanded="false" target="_blank">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="atm.html" target="_blank">ATMS & TMS</a>
+                        <a class="dropdown-item" href="erp.html" target="_blank">Enterprise Resource Planning</a>
+                        <a class="dropdown-item" href="application.html" target="_blank">Application Service</a>
+                        <a class="dropdown-item" href="infrastructure.html" target="_blank">Infrastructure Service</a>
+                        <a class="dropdown-item" href="hardware.html" target="_blank">Hardware Service</a>
+                        <!-- "service.html#hardware-service"-->
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="portfolio.html" target="_blank">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html" target="_blank">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html" target="_blank">Contact</a></li>
+                <!---- <li class="nav-item"><a class="nav-link" href="client.html">Client</a></li>-->
+                <li class="nav-item"><a class="nav-link" href="partner.html" target="_blank">Collaborators</a></li>
+                <li class="nav-item"><a class="nav-link" href="career.html" target="_blank">Career</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="application-service">
+        <h2 class="text-center pt-5">Application Services</h2>
+        <section id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <div class="row">
+                            <p style="text-align: left;">Our in-depth domain, technical expertise and industry standard
+                                quality processes, enable our clients to solve complex problems, mitigate risks and meet
+                                their business objectives.</p>
+                            <p>Our suite of application development services include:-</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="cards-box mb-3">
+                                    <div class="about-title">
+                                        Developing brand-new applications and systems
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cards-box mb-3">
+                                    <div class="about-description"> Major enhancements to existing applications/systems
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="image/application/1.jpg" class="img-fluid" alt="Application Service">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="technology">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="image/application/techimg3.png" alt="" style="text-align: center;" class="tech">
+                    </div>
+                    <div class="col-md-7 mt-2">
+                        <h5 style="color: white;">The technology platform for our application development services
+                            include:-</h5>
+                        <ul class="techlist">
+                            <li>
+                                <h6 class="heading"><b style="color: white;">Web Technologies (Java, J2EE, ASP, .Net,
+                                        MVC, Angular 2, Node.js,
+                                        React.js, Ruby On Rail, Xamarian, ColdFusion, PERL, PHP, Python, Internet Of
+                                        Thingss(IoT) etc. )</b></h6>
+                            </li>
+                            <li>
+                                <h6 class="heading"><b style="color: white;">Web Services</b></h6>
+                            </li>
+                            <li>
+                                <h6 class="heading"><b style="color: white;">Databases (Oracle 9i, PL/SQL, SQL Server,
+                                        DB2, Teradata, MySQL
+                                        etc.)</b>
+                                </h6>
+                            </li>
+                            <li>
+                                <h6 class="heading"><b style="color: white;">Client Server Technologies (VB, Visual
+                                        C/C++ etc.)</b></h6>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="service-offered" class="container mt-5">
+            <h2>At Arohan we Offer</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="cards-box mb-3" style="background-color: rgb(201, 231, 255);">
+                        <div class="about-title mt-4" style="font-size: larger;">Cloud Based Enterprise Solution</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards-box mb-3" style="background-color: rgb(201, 231, 255);">
+                        <div class="about-title mt-4" style="font-size: larger;">Application Transformation &
+                            Modernization
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards-box mb-3" style="background-color: rgb(201, 231, 255);">
+                        <div class="about-title mt-4" style="font-size: larger;">Mobile Services
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="cards-box mb-5" style="background-color: rgb(201, 231, 255);">
+                        <div class="about-title mt-4" style="font-size: larger;">Customised ERP Solution Development
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards-box mb-5" style="background-color: rgb(201, 231, 255);">
+                        <div class="about-description mt-4" style="font-size: larger;">Website & Web Portal
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards-box mb-5" style="background-color: rgb(201, 231, 255);">
+                        <div class="about-description mt-4" style="font-size: larger;">SQL Server Consultancy
+                            System
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="cloud-based">
+            <div class="container">
+                <div class="card mb-4 mt-5">
+                    <div class="card-body ">
+                        <h5 class="card-title">Cloud Based Enterprise Solution:-</h5>
+                    </div>
+                </div>
+                <div class="section-content">
+                    <p style="color: white;">Cloud is now a true driver to business change, bringing together a range of
+                        public and private
+                        services, to deliver agility, scalability, simplicity and speed to market.</p>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h5 style="text-align: left; color: white;" class="mb-4">Arohan offers:-</h5>
+                            <div class="features">
+                                <div class="feature">
+                                    <p class="feature-description"
+                                        style="text-align: left; color: white; font-weight: 1000;">Granular cost control
+                                        of
+                                        your
+                                        infrastructure</p>
+                                </div>
+                                <div class="feature">
+                                    <p class="feature-description"
+                                        style="text-align: left; color: white; font-weight: 1000;">The ability to
+                                        quickly
+                                        experiment,
+                                        leading to increased
+                                        Innovation</p>
+                                </div>
+                                <div class="feature">
+                                    <p class="feature-description"
+                                        style="text-align: left; color: white;font-weight: 1000;">Opportunities to
+                                        pilot,
+                                        test
+                                        and
+                                        launch enterprise
+                                        applications quickly.</p>
+                                </div>
+                                <div class="feature mb-5">
+                                    <p class="feature-description"
+                                        style="text-align: left; color: white; font-weight: 1000;">Elasticity to
+                                        instantly
+                                        scale
+                                        up
+                                        and down as your workload
+                                        grows or changes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+
+                            <div class="partner-section">
+                                <h5 style="color: white;">Partnered With</h5>
+                                <ul class="partner-list">
+                                    <li style="color: white;">Leading Cloud Provider.</li>
+                                    <li style="color: white;">Includes Amazon Web Services.</li>
+                                    <li style="color: white;">Microsoft Azure & Others.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="application-trans" class="container mt-5 mb-5">
+            <div class="card mb-4">
+                <div class="card-body ">
+                    <h5 class="card-title">Application Transformation and Modernization:-</h5>
+                </div>
+            </div>
+            <div class="section-content">
+                <p style="text-align: left;">Application Transformation services to migrate legacy applications to run
+                    on the Net platform
+                    (ASP.Net, C#, VB.Net, SQL Server).</p>
+                <p style="text-align: left; padding-left: 30px;">The various steps involved in the completion of the
+                    activities are:-</p>
+                <ul style="text-align: left; padding-left: 40px;">
+                    <li><b>Mapping of the application portfolio.</b></li>
+                    <li><b>Gathering and analyzing business requirements of the legacy system.</b></li>
+                    <li><b>Aligning of the cost in best business value.</b></li>
+                    <li><b>Designing, Building, Testing and deploying the new or revised solution in alignment with the
+                            business need.</b></li>
+                </ul>
+            </div>
+        </section>
+        <section id="mobile-service">
+            <div class="container mb-5">
+                <div class="card mb-4">
+                    <div class="card-body  ">
+                        <h5 class="card-title">Mobile Services:-</h5>
+                    </div>
+                </div>
+                <div class="section-content mb-5">
+                    <p class="mb-1" style="color: white; text-align: left;">Our services help organizations understand
+                        their business needs in the area of
+                        enterprise mobile solutions, mobile applications or mobile as access points for other
+                        applications.</p>
+                    <p style="color: white; text-align: left;padding-left: 40px; margin-bottom: 40px;">
+                        We work across multiple
+                        mobile platforms, frameworks & environments to mobilize
+                        business.
+                        <br>Mobile
+                        application development services spans from idea conceptualization to delivery and aftersales
+                        support. <br> High end user interface designers. <br>Believes in On-Time Deployment.
+                    </p>
+                    <!--- <img src="image/application/4.png"
+                    alt="Mobile Services" class="mobile-services-img">-->
+                    <h5><b style="color: white; text-align: left;">Multiple mobile platforms, frameworks &
+                            environments</b></h5>
+                    <ul>
+                        <li class="mb-4" style="color: white; text-align: left;"><b style="font-size: larger;">IOS</b>
+                            (an operating system from Apple),</li>
+                        <li class="mb-4" style="color: white; text-align: left;"><b style="font-size: larger;">
+                                Android</b>(Linux based mobile operating system developed by the Open Handset
+                            Alliance led by
+                            Google).</li>
+                        <li class="mb-4" style="color: white; text-align: left;"><b style="font-size: larger;">Windows
+                                Phone</b> (A successor to Windows Mobile platform, Windows Phone, is a
+                            mobile operating
+                            system launched by Microsoft in late 2010.)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="customized-enterprise-solution" class="container mb-5">
+            <div class="card mb-4">
+                <div class="card-body ">
+                    <h5 class="card-title">Customized Enterprise Solution Development:-</h5>
+                </div>
+            </div>
+            <div class="section-content">
+                <ul>
+                    <li>Full life-cycle services to design and develop high quality custom applications.</li>
+                    <li>Delivering new business value and capabilities utilizing a robust set of methodologies,
+                        frameworks, industry accelerators and software assets.</li>
+                    <li>Our services cover a range of architectures, technologies, platforms and devices.</li>
+                    <li>Enterprise Resource Planning-ERP(custom developed software systems) which includes service
+                        offerings as through its cloud/server based methodologies.</li>
+                </ul>
+                <div class="row">
+                    <div class="col-md-6 mt-5 text-left">
+                        <h5>OUR SPECIALITIES</h5>
+                        <ul>
+                            <li>Customized application development for a web portal already in place.</li>
+                            <li>Flexible and effective Content Management.</li>
+                            <li>User friendliness.</li>
+                            <li>Friendliness with SEO/SMO.</li>
+                            <li>Cost effectiveness.</li>
+                            <li>24-7 customer support.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-4 ems-card">
+                            <div class="card-body color-white ">
+                                <!-- <h5 class="card-title">Application Transformation and Modernization:-</h5> -->
+                                <ul>
+                                    <li class="text-white">EMS(Equipment Management System)</li>
+                                    <li class="text-white">HRMS (Human Resource Management System)</li>
+                                    <li class="text-white">CRM (Customer Relationship Management)</li>
+                                    <li class="text-white">Document management system</li>
+                                    <li class="text-white">Material Management</li>
+                                    <li class="text-white">Project Management</li>
+                                    <li class="text-white">Procurement Process</li>
+                                    <li class="text-white">Work Order & Billing</li>
+                                    <li class="text-white">Accounting Module</li>
+                                    <li class="text-white">Production Process</li>
+                                    <li class="text-white">Responsibility Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="web-site-web-portals" class="container mb-5">
+            <div class="card mb-4">
+                <div class="card-body ">
+                    <h5 class="card-title">Web site & Web Portals:-</h5>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-6 text-left">
+                        <!----  <p></p> --->
+                        <p style="text-align:left ;">A web portal is actually a highly beneficial entry point to the
+                            World Wide Web for both individuals and enterprises.</p>
+
+                        <div class="col">
+                            <div class="cards-box " style="background-color: rgb(201, 231, 255); height: 100px;">
+                                <div class="about-title ">We develop dynamic, interactive, eye-catching business
+                                    portals, corporate portals or any in the list.</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="cards-box " style="background-color: rgb(232, 242, 250); height: 100px;">
+                                <div class="about-title ">We provide complete web development services
+                                    to organizations, everything
+                                    from static HTML websites to enterprise grade complex web applications.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="cards-box " style="background-color: rgb(201, 231, 255); height: 100px;">
+                                <div class="about-title ">We have very feasible and cost-effective Web
+                                    Development Packages
+                                    recommended as per the client's requirement.
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-6">
+                        <img src="image/application/webpo.jpg" class="img-fluid" alt="websites">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sql-server-consultancy" class="container mb-5">
+            <div class="card mb-4">
+                <div class="card-body ">
+                    <h5 class="card-title">SQL Server Consultancy:-</h5>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="image/application/sql.jpg" class="img-fluid custom-img" alt="sql-server-consultancy"
+                            sizes="max width: 80%">
+                    </div>
+                    <div class="col-md-8 text-left">
+                        <ul>
+                            <p style="text-align: left;">We help in Creating, Administering, and Performance Tuning of
+                                Customized Microsoft SQL Server
+                                database solutions for any size of business.</p>
+                            <li> <b>SQL Server database administration.</b></li>
+                            <li><b>Performance Tuning.</b></li>
+                            <li><b>SQL Server Heath Checkups.</b></li>
+                            <li><b>Database problem-solving combined with an understanding of business goals and
+                                    effective
+                                    project
+                                    management.</b></li>
+                            <li><b>Emergency Support/Onsite Support.</b></li>
+                            <li><b>Easy Database Migration.</b></li>
+                            <li><b>Highly Effective Recovery Process in Place in case of any disaster.</b></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+    <div style="text-align: center; margin-top: 20px;">
+        <h3>For more details, Contact Us</h3>
+        <p style="margin-left: 50px; margin-right: 50px;">Our dedicated team is here to assist you with all your needs. We are committed to providing top-notch solutions and support, ensuring your
+            projects are successful and efficient.</p>
+        <a href="contact.html" target="_blank" class="btn btn-primary follow-link"
+            style="display: inline-block; margin-top: 10px; margin-bottom: 50px;">Contact Us</a>
+    </div>
+
+
+
+
+    <footer class="footer text-white">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-md-3">
+                    <h3>Arohan Infocare</h3>
+                    <p>We are an independent firm of Consultants and Technical specialists offering a wide range of
+                        services.</p>
+                    <p>We serve clients at every level of their organization, in every capacity, whether as a consultant
+                        to top management or as a hands-on trainer for front line employees.</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Contact Information</h3>
+                    <p>E-144,Sector 63</p>
+                    <p>Noida, U.P-201301, India</p>
+                    <p class="email-id"><a href="mailto:support@arohaninfocare.com" style="color: #ccc;">support@arohaninfocare.com</a></p>
+                    <p>Phone:<a href="#" style="color: #ccc;">9312836346</a></p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="about.html" class="text-white">About</a></li>
+                        <li><a href="service.html" class="text-white">Services</a></li>
+                        <li><a href="terms.html" class="text-white">Terms</a></li>
+                        <li><a href="privacy.html" class="text-white">Privacy</a></li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/arohaninfocareprivatelimited/" class="text-white"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/arohan-infocare-610984120/" class="text-white"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h3> <a href="certificate.html" style="text-decoration: none; color: inherit; text-align: left;">
+                            Certificates </a></h3>
+                    <p><a href="certificate.html" style="text-decoration: none; color: inherit; text-align: left;">ISO
+                            9001:2015</a></p>
+                    <p><a href="certificate.html"
+                            style="text-decoration: none; color: inherit; text-align: left;">MSME</a></p>
+                    <div class="row">
+                        <div class="col-md-6"><a href="certificate.html"><img src="certi.png" alt="" width="110"
+                                    height="150"></a></div>
+                        <div class="col-md-6"><a href="certificate.html"><img src="MSME-Certi.jpg" alt="" width="120"
+                                    height="150"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <p style="text-align: center;">© 2024 Arohan Infocare. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATMS&TMS</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .cards-box {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 100%;
+            height: 150px;
+        }
+
+        .cards-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+
+
+        .cards-box:hover .service-icon {
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+
+        .cards-title {
+            font-size: 14px;
+            color: #6c757d;
+        }
+
+        .tech:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html" target="_blank">
+            <img src="bn.png" alt="Arohan Infocare Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html" target="_blank">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="service.html" id="navbarDropdown" aria-haspopup="true"
+                        aria-expanded="false" target="_blank">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="atm.html" target="_blank">ATMS & TMS</a>
+                        <a class="dropdown-item" href="erp.html" target="_blank">Enterprise Resource Planning</a>
+                        <a class="dropdown-item" href="application.html" target="_blank">Application Service</a>
+                        <a class="dropdown-item" href="infrastructure.html" target="_blank">Infrastructure Service</a>
+                        <a class="dropdown-item" href="hardware.html" target="_blank">Hardware Service</a>
+
+                        <!-- "service.html#hardware-service"-->
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="portfolio.html" target="_blank">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html" target="_blank">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html" target="_blank">Contact</a></li>
+                <!---- <li class="nav-item"><a class="nav-link" href="client.html">Client</a></li>-->
+                <li class="nav-item"><a class="nav-link" href="partner.html" target="_blank">Collaborators</a></li>
+                <li class="nav-item"><a class="nav-link" href="career.html" target="_blank">Career</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:  #F54A14;" href="login.html"
+                        target="_blank">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h3 class="text-center" style="margin-top: 110px;"> Advanced Traffic Management System(ATMS) & Toll Management
+        System(TMS) </h3>
+    <section id="TMS" class="container mt-5 mb-5">
+
+        <h5 class="card-title"><b>Toll Management System(TMS) </b> </h5>
+
+        <div class="section-content">
+            <p style="margin-bottom: 45px; text-align: left;">Welcome to Arohan Infocare's Toll Management Service
+                (TMS), a
+                state-of-the-art system designed to
+                revolutionize toll collection and traffic management. Our advanced TMS integrates cutting-edge
+                technology
+                and sophisticated software to ensure efficient, secure, and seamless toll collection.</p>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <p style="margin-bottom: 30px;">
+                    <h5> <b style="color: #777676;">What is Toll Management System (TMS)?</b></h5>
+                    Toll Management System (TMS) is designed to collect revenue and recover capital outlay incurred on
+                    construction, maintenance, and operation of toll facilities. This system aims to provide reduced
+                    travel time
+                    and enhanced service levels to end-users. Arohan Infocare’s TMS is a blend of various hardware and
+                    software
+                    modules that automate and manage the entire toll collection process efficiently.</p>
+                </div>
+                <div class="col-md-7">
+                    <img src="image/atm/tms1.jpeg" alt="" style="width: 100%; height: 300px;">
+                </div>
+            </div>
+
+
+            <p style="margin-bottom: 30px;">
+            <h5><b style="color: #777676;">Key Features of Arohan Infocare’s TMS: </b></h5>
+
+           <!---- <div class="row">
+                <div class="cards-box mb-3">
+                    <div class="about-title" style="text-align: left; justify-content: space-between;"> <b> Automated
+                            Toll Collection <br></b>
+
+                        - Facilitates smooth traffic flow <br>
+                        - Minimizes leakages and increases revenues<br>
+                        - Handles over 100,000+ PCU per day <br>
+                        <br>
+                    </div>
+                </div>
+            </div> -->
+            <b> Automated Toll Collection <br></b>
+
+            - Facilitates smooth traffic flow <br>
+            - Minimizes leakages and increases revenues<br>
+            - Handles over 100,000+ PCU per day <br>
+            <br>
+            <b>Fraud Detection and Incident Management <br></b>
+
+            - Detects fraud and incidents <br>
+            - Eases operations and minimizes risk <br>
+            <br>
+            <b>Automated Vehicle Classification (AVC)<br></b>
+            - Determines exact toll charge<br>
+            <br>
+            <b>Advanced Data Processing<br></b>
+            - Facilitates faster and accurate processing of vehicular data via Automatic Number Plate Recognition
+            (ANPR)<br>
+            - Works in conjunction with Speed Enforcement engines
+            </p>
+
+            <p style="margin-bottom: 45px;">
+            <h5><b style="color: #777676;">Our Solutions:</b></h5>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="cards-box mb-3">
+                        <div class="about-title"> <b> Manual Toll Collection</b> <br>
+                            - Traditional toll collection with human operators <br> <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cards-box mb-3">
+                        <div class="about-description"> <b>Semi-Automatic Toll Collection</b> <br>
+                            - Traditional toll collection with human operators <br> <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cards-box mb-3">
+                        <div class="about-description"> <b>Electronic Toll Collection (ETC)</b> <br>
+                            - Fully automated, cashless toll collection system <br> <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cards-box mb-3">
+                        <div class="about-description"> <b>Weight-based Toll Collection</b> <br>
+                            - Charges vehicles based on their weight<br> <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </p>
+
+            <p>
+            <h5> <b style="color: #777676;">Why Choose Arohan Infocare’s TMS?</b></h5>
+            <b>Hi-tech Software Architecture</b> : Equipped with the latest technologies, ensuring maximum results at
+            minimal costs.<br> <br>
+
+            <b>Excellent Surveillance Options</b> : Continuous monitoring to reduce fraud and pilferage.<br> <br>
+
+            <b>Effective System Control</b> : Real-time control over toll plaza operations, ensuring optimal
+            connectivity.<br> <br>
+
+            <b>Tailor-made Reporting System</b>: Customizable reports for better operational performance analysis.<br>
+            <br>
+            <b>Hybrid Toll Collection Techniques</b>: Integrated technology for smooth functioning and road
+            maintenance.<br> <br>
+            </p>
+
+            <p>
+            <h5> <b style="color: #777676;">Benefits of Our Electronic Toll System:</b></h5>
+            <br>
+            - Saves time for both commuters and toll centers <br>
+            - Reduces operational and fuel costs <br>
+            - Eliminates the possibility of cash fraud with proper controls and RFID <br>
+            - Reduces traffic congestion at toll plazas <br>
+            - Accommodates more vehicles simultaneously</p>
+
+            <p>
+            <h5> <b style="color: #777676;">Our Commitment:</b></h5>
+            At Arohan Infocare, we strive to deliver a highly functional toll management system
+            that meets your needs.
+            Our solutions promise excellent competence, durability, safety, and efficiency in saving fuel, time, and
+            power resources.
+
+            Experience the future of toll management with Arohan Infocare’s advanced Toll Management System, designed to
+            provide seamless and efficient toll collection services. Contact us today to learn more about our customized
+            solutions that can enhance your toll operation and infrastructure.</p>
+
+
+        </div>
+    </section>
+
+
+    <section class="clients-section">
+        <div class="container">
+            <h4 class="type pt-5 mb-5" style="text-align: center;">Some work in ATMS & TMS</h4>
+
+            <div class="owl-carousel atms-carousel">
+                <div><img src="image/atm/1 (1).jpeg" alt="Orion" style="width: 100%; height: 300px;"></div>
+                <div><img src="image/atm/1 (11).jpeg" style="width: 100%; height: 300px;"></div>
+                <div><img src="image/atm/1 (10).jpeg" style="width: 100%; height: 300px;"></div>
+                <div><img src="image/atm/1 (15).jpeg" style="width: 100%; height: 300px;"></div>
+                <div><img src="image/atm/1 (16).jpeg" style="width: 100%; height: 300px;"></div>
+                <div><img src="image/atm/1 (8).jpeg" style="width: 100%; height: 300px;"></div>
+                <div><img src="image/atm/1 (2).jpeg" style="width: 100%; height: 300px;"></div>
+                <div><img src="image/atm/1 (5).jpeg" alt="Era Group" style="width: 100%; height: 300px;"></div>
+                <div><img src="image/atm/1 (4).jpeg" alt="Afon Infra" style="width: 100%; height: 300px;"></div>
+                <div><img src="image/atm/1 (6).jpeg" alt="Auskini InfraQP" style="width: 100%; height: 300px;"></div>
+                <div><img src="image/atm/1 (7).jpeg" alt="Apra" style="width: 100%; height: 300px;"></div>
+                <div><img src="image/atm/1 (16).jpeg" alt="Empress" style="width: 100%; height: 300px;"></div>
+                <div><img src="image/atm/1 (12).jpeg" alt="Kyros" style="width: 100%; height: 300px;"></div>
+                <div><img src="image/atm/1 (3).jpeg" alt="Kyros" style="width: 100%; height: 300px;"></div>
+                <div><img src="image/atm/1 (14).jpeg" alt="Kyros" style="width: 100%; height: 300px;"></div>
+                <div><img src="image/atm/1 (9).jpeg" alt="Kyros" style="width: 100%; height: 300px;"></div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="TMS" class="container mt-5 mb-5">
+
+        <h5 class="card-title"><b>Advanced Traffic Management System(ATMS) </b> </h5>
+
+        <div class="section-content">
+            <p style="margin-bottom: 45px; text-align: left;"> Arohan Infocare proudly presents its Advanced Traffic
+                Management System (ATMS), a sophisticated solution
+                designed to streamline traffic control and enhance road safety. Our ATMS leverages cutting-edge
+                technology and
+                seamless integration to centralize traffic operations and facilitate efficient monitoring, ensuring a
+                smoother
+                and safer driving experience for all.
+            </p>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <p style="margin-bottom: 30px;">
+                    <h5> <b style="color: #777676;"> Our Premier Solution</b></h5>
+
+                    Our flagship product, exemplifies the integration of advanced technologies to create
+                    an
+                    intelligent traffic management system. HighwayXpert connects multiple traffic control centers on a
+                    highway,
+                    offering a comprehensive and coordinated approach to traffic management. Our primary goal is to
+                    enhance road
+                    safety, improve monitoring capabilities, and provide timely assistance during emergencies.</p>
+                </div>
+                <div class="col-md-7">
+                    <img src="image/atm/aatm.jpeg" alt="" style="width: 100%; height: 300px;">
+                </div>
+            </div>
+
+
+            <p style="margin-bottom: 30px;">
+            <h5><b style="color: #777676;">Key Features of Arohan Infocare’s ATMS: </b></h5>
+
+
+            <b> Automatic Traffic Counter & Classifier (ATCC):<br></b>
+            This technology detects, classifies, and estimates vehicle
+            speeds across multiple lanes and directions, providing accurate and reliable traffic data.<br>
+            <br>
+            <b>Video Incident Detection System (VIDS): <br></b>
+            Offers comprehensive visual coverage, enabling real-time detection
+            and recording of traffic incidents.<br>
+            <br>
+            <b>Closed Circuit Television Surveillance (CCTV):<br></b>
+            Ensures continuous monitoring, even under low visibility
+            conditions.<br>
+            <br>
+            <b>
+                Variable Message Sign (VMS): <br>
+            </b> Communicates critical information such as weather updates, traffic
+            congestion, and road diversions directly to drivers. <br>
+            <br>
+            
+            <b>Solar Blinkers: <br></b>Eco-friendly solar-powered blinkers to regulate traffic on less congested roads
+            and
+            highways. <br> <br>
+            </p>
+
+            <p style="margin-bottom: 45px;">
+            <h5><b style="color: #777676;"> Benefits of Choosing Us</b></h5>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="cards-box mb-3">
+                        <div class="about-title"> <b> Innovative Technology Integration:</b> <br>
+                            Arohan employs state-of-the-art technologies to ensure efficient
+                            traffic management and control. <br> <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards-box mb-3">
+                        <div class="about-description"> <b>Enhanced Road Safety:</b> <br>
+                            Every component is designed to improve safety and provide assistance to road users,
+                            reducing the risk of accidents.<br> <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards-box mb-3">
+                        <div class="about-description"> <b>Real-time Information:</b> <br>
+                            Provides accurate and timely updates about weather, congestion, and road
+            conditions, enabling users to make informed decisions. <br> <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards-box mb-3">
+                        <div class="about-description"> <b>Efficient Traffic Flow:</b> <br>
+                            Ensures smooth traffic movement, minimizing delays and congestion.<br> <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards-box mb-3">
+                        <div class="about-description"> <b>Timely Alerts and Assistance:
+                    </b> <br>
+                            Offers prompt alerts about road conditions, allowing users to adjust routes
+                            and save commuting time.<br> <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards-box mb-3">
+                        <div class="about-description"> <b>Accident Prevention:</b> <br>
+                            Effectively prevents road accidents through advanced monitoring and timely
+                            interventions.<br> <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </p>
+
+            <p>
+            <h5> <b style="color: #777676;">Our Commitment:</b></h5>
+            Arohan Infocare’s Advanced Traffic Management Solution, is a comprehensive and integrated system
+            designed to enhance traffic control and safety. By leveraging advanced technologies and providing real-time
+            information, We ensures efficient traffic management, reduces accidents, and improves the overall
+            driving experience. Choose Arohan for a reliable, efficient, and innovative approach to traffic
+            management.</p>
+
+
+        </div>
+    </section>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <h3>For more details, Contact Us</h3>
+        <p style="margin-left: 50px; margin-right: 50px;">Our dedicated team is here to assist you with all your Advanced Traffic Management System (ATMS) and Toll
+            Management System (TMS) needs. We are committed to providing top-notch solutions and support, ensuring your
+            projects are successful and efficient.</p>
+        <a href="contact.html" target="_blank" class="btn btn-primary follow-link"
+            style="display: inline-block; margin-top: 10px; margin-bottom: 50px;">Contact Us</a>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer text-white">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-md-3">
+                    <h3>Arohan Infocare</h3>
+                    <p>We are an independent firm of Consultants and Technical specialists offering a wide range of
+                        services.</p>
+                    <p>We serve clients at every level of their organization, in every capacity, whether as a consultant
+                        to top management or as a hands-on trainer for front line employees.</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Contact Information</h3>
+                    <p>E-144,Sector 63 <br>Noida, U.P-201301, India</p>
+
+                    <p class="email-id"> <a href="mailto:support@arohaninfocare.com" style="color: #ccc;">support@arohaninfocare.com</a></p>
+                    <p>Phone: <a href="#" style="color: #ccc;">9312836346</a> </p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="about.html" class="text-white">About</a></li>
+                        <li><a href="service.html" class="text-white">Services</a></li>
+                        <li><a href="terms.html" class="text-white">Terms</a></li>
+                        <li><a href="privacy.html" class="text-white">Privacy</a></li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/arohaninfocareprivatelimited/" class="text-white"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/arohan-infocare-610984120/" class="text-white"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h3> <a href="certificate.html" style="text-decoration: none; color: inherit; text-align: left;">
+                            Certificates </a></h3>
+                    <p><a href="certificate.html" style="text-decoration: none; color: inherit; text-align: left;">ISO
+                            9001:2015</a></p>
+                    <p><a href="certificate.html"
+                            style="text-decoration: none; color: inherit; text-align: left;">MSME</a></p>
+                    <div class="row">
+                        <div class="col-md-6"><a href="certificate.html"><img src="certi.png" alt="" width="110"
+                                    height="150"></a></div>
+                        <div class="col-md-6"><a href="certificate.html"><img src="MSME-Certi.jpg" alt="" width="120"
+                                    height="150"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <p style="text-align: center;">© 2024 Arohan Infocare. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

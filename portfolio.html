@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Arohan Infocare</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <!-- Navigation Bar -->
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html" target="_blank">
+            <img src="bn.png" alt="Arohan Infocare Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html" target="_blank">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="service.html" id="navbarDropdown" aria-haspopup="true"
+                        aria-expanded="false" target="_blank">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="atm.html" target="_blank">ATMS & TMS</a>
+                        <a class="dropdown-item" href="erp.html" target="_blank">Enterprise Resource Planning</a>
+                        <a class="dropdown-item" href="application.html" target="_blank">Application Service</a>
+                        <a class="dropdown-item" href="infrastructure.html" target="_blank">Infrastructure Service</a>
+                        <a class="dropdown-item" href="hardware.html" target="_blank">Hardware Service</a>
+                        <!-- "service.html#hardware-service"-->
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="portfolio.html" target="_blank">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html" target="_blank">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html" target="_blank">Contact</a></li>
+                <!---- <li class="nav-item"><a class="nav-link" href="client.html">Client</a></li>-->
+                <li class="nav-item"><a class="nav-link" href="partner.html" target="_blank">Collaborators</a></li>
+                <li class="nav-item"><a class="nav-link" href="career.html" target="_blank">Career</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!---
+    <div class="image-row">
+        <img src="image/portfolio/AEMS.png" alt="Image 1" class="image">
+        <img src="image/portfolio/IMS.png" alt="Image 1" class="image">
+        <img src="image/portfolio/ARISE.png" alt="Image 1" class="image">
+    </div> -->
+    <section class="portfolio pt-5">
+        <h2 class="pt-5 mb-3">Our Portfolio</h2>
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">ALL</button>
+            <button class="filter-btn " data-filter="atms">ATMS & TMS</button>
+            <button class="filter-btn mb-4" data-filter="software">IT</button>
+        </div>
+        <div class="portfolio-items">
+            <div class="portfolio-item mb-5" data-category="software">
+                <img src="image/portfolio/AEMS.png" alt="Equipment Management System">
+                <div class="portfolio-info">
+                    <h3>Equipment Management System</h3>
+                    <p>SOFTWARE</p>
+                    <button class="view-btn" onclick="enlargeImage(this)">
+                        <img src="image/portfolio/icons8-eye-48.png" alt="View">
+                    </button>
+                </div>
+            </div>
+            <div class="portfolio-item mb-5" data-category="software">
+                <img src="image/portfolio/IMS.png" alt="Institute Management System">
+                <div class="portfolio-info">
+                    <h3>Institute Management System</h3>
+                    <p>SOFTWARE</p>
+                    <button class="view-btn" onclick="enlargeImage(this)">
+                        <img src="image/portfolio/icons8-eye-48.png" alt="View">
+                    </button>
+                </div>
+            </div>
+            <div class="portfolio-item mb-5" data-category="software">
+                <img src="image/portfolio/ARISE.png" alt="ARISE">
+                <div class="portfolio-info">
+                    <h3>ARISE</h3>
+                    <p>SOFTWARE</p>
+                    <button class="view-btn" onclick="enlargeImage(this)">
+                        <img src="image/portfolio/icons8-eye-48.png" alt="View">
+                    </button>
+                </div>
+            </div>
+            <div class="portfolio-item mb-5" data-category="software">
+                <img src="image/portfolio/59dabbd2-e0a8-4e49-835b-40624460efb5.jpg" alt="Business Development Portal">
+                <div class="portfolio-info">
+                    <h3>Business Development Portal</h3>
+                    <p>SOFTWARE</p>
+                    <button class="view-btn" onclick="enlargeImage(this)">
+                        <img src="image/portfolio/icons8-eye-48.png" alt="View">
+                    </button>
+                </div>
+            </div>
+            <div class="portfolio-item mb-5" data-category="atms">
+                <img src="image/portfolio/delhi.png" alt="Delhi-Vadodra Expressway Project">
+                <div class="portfolio-info">
+                    <h3>Delhi-Vadodra Expressway Project</h3>
+                    <p>ATMS & TMS</p>
+                    <div class="project-details">
+                        <p><strong>Client:</strong> Patel Infrastructure</p>
+                        <p><strong>Location:</strong> Gujarat, India</p>
+                        <p><strong>Description:</strong> Construction of 8 lane access-controlled expressway with SH 175
+                            near the village of Panch District to SH-63 near Pratabh Nagar Village of Vadodara District.
+                            Chainage 803+420 to 824+920, design chainage 351+000 to 372+500 section of Delhi Vadodra
+                            Greenfield alignment (NH-148) on EPC Mode under Bharatmala Pariyojana.</p>
+                        <p><strong>Total Length:</strong> 22 km</p>
+                    </div>
+                    <button class="view-btn" onclick="enlargeImage(this)">
+                        <img src="image/portfolio/icons8-eye-48.png" alt="View" style="margin-bottom: 500px;">
+                    </button>
+                </div>
+            </div>
+            <div class="portfolio-item mb-5" data-category="atms">
+                <img src="image/portfolio/Ujjain.png" alt="Ujjain-Garoth ATMS Project">
+                <div class="portfolio-info">
+                    <h3>Ujjain-Garoth ATMS Project</h3>
+                    <p>ATMS & TMS</p>
+                    <div class="project-details">
+                        <p><strong>Client:</strong> MKC Infrastructure Limited</p>
+                        <p><strong>Location:</strong> Madhya Pradesh, India</p>
+                        <p><strong>Description:</strong> Supply, Installation, and Maintenance of ATMS & Toll Management
+                            System for the 4-laning project of Ujjain-Garoth Pkg-3. From Suhagdha to Bardia Amra,
+                            spanning from km 89+200 to km 135+351.</p>
+                        <p><strong>Total Length:</strong> 46.1 km</p>
+                    </div>
+                    <button class="view-btn" onclick="enlargeImage(this)">
+                        <img src="image/portfolio/icons8-eye-48.png" alt="View"style="margin-bottom: 500px;">
+                    </button>
+                </div>
+            </div>
+            <div class="portfolio-item mb-5" data-category="atms">
+                <img src="image/portfolio/sriganganagar_bikaner_project.jpg" alt="SriGanganagar-Bikaner ATMS Project">
+                <div class="portfolio-info">
+                    <h3>SriGanganagar-Bikaner ATMS Project</h3>
+                    <p>ATMS & ITS</p>
+                    <div class="project-details">
+                        <p><strong>Client:</strong> Mundan Construction Company (MCC)</p>
+                        <p><strong>Location:</strong> Rajasthan, India</p>
+                        <p><strong>Description:</strong> Development & Operation Management of SriGanganagar Bikaner
+                            (Padampur km 38+920 to Raiseen Nagar 62+850 and Satasar km 198+300 to Bikaner km 261+500)
+                            section of SH-3 under Design, Build, Operate, Public Maintain, and Transfer on Hybrid Mode.
+                        </p>
+                        <p><strong>Total Length:</strong> 92.900 km</p>
+                    </div>
+                    <button class="view-btn" onclick="enlargeImage(this)">
+                        <img src="image/portfolio/icons8-eye-48.png" alt="View" style="margin-bottom: 470px;">
+                    </button>
+                </div>
+            </div>
+            <div class="portfolio-item mb-5" data-category="atms">
+                <img src="image/portfolio/jhodhpur.png" alt="Jodhpur Ring Road ATMS Project">
+                <div class="portfolio-info">
+                    <h3>Jodhpur Ring Road ATMS Project</h3>
+                    <p>ATMS & TMS</p>
+                    <div class="project-details">
+                        <p><strong>Client:</strong> OSS Construction</p>
+                        <p><strong>Location:</strong> Rajasthan, India</p>
+                        <p><strong>Description:</strong> Construction of 4-lane green field Jodhpur Ring Road Pkg-2 from
+                            Karwar (km 281.980 of NH-62 Nagaroad to Danga Vais section) with a design length of 30.693
+                            km in the state of Rajasthan on EPC mode under NH DP Phase-7.</p>
+                        <p><strong>Total Length:</strong> 30.693 km</p>
+                    </div>
+                    <button class="view-btn" onclick="enlargeImage(this)">
+                        <img src="image/portfolio/icons8-eye-48.png" alt="View" style="margin-bottom: 470px;">
+                    </button>
+                </div>
+            </div>
+            <div class="portfolio-item mb-5" data-category="atms">
+                 <img src="image/atm/1 (15).jpeg" alt="Ramseen-Bhinmaal-Raniwara ATMS Project">
+                <div class="portfolio-info">
+                    <h3>Ramseen-Bhinmaal-Raniwara ATMS Project</h3>
+                    <p>ATMS & TMS</p>
+                    <div class="project-details">
+                        <p><strong>Client:</strong> Radha Kishan Infra Developer Pvt. Limited</p>
+                        <p><strong>Location:</strong> Rajasthan, India</p>
+                        <p><strong>Description:</strong> Development and maintenance of two lanes of
+                            Ramseen-Bhinmal-Raniwara section of SH-31 from design (km 0.000 to 62.619) existing km
+                            43.800 to 107.600, total length 62.619 km in the state of Rajasthan under hybrid annuity
+                            mode.</p>
+                        <p><strong>Total Length:</strong> 62.619 km</p>
+                    </div>
+                    <button class="view-btn" onclick="enlargeImage(this)">
+                        <img src="image/portfolio/icons8-eye-48.png" alt="View"  style="margin-bottom: 470px;">
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <div id="enlargedImageContainer" class="enlarged-image-container">
+        <img id="enlargedImage" src="image/portfolio/icons8-eye-50.png" alt="Enlarged">
+        <img src="image/portfolio/close.png" alt="" class="close-btn" onclick="closeEnlargedImage()"
+            style="margin-top: 50px;">
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer text-white">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-md-3">
+                    <h3>Arohan Infocare</h3>
+                    <p>We are an independent firm of Consultants and Technical specialists offering a wide
+                        range of
+                        services.</p>
+                    <p>We serve clients at every level of their organization, in every capacity, whether as
+                        a consultant
+                        to top management or as a hands-on trainer for front line employees.</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Contact Information</h3>
+                    <p>E-144,Sector 63</p>
+                    <p>Noida, U.P-201301, India</p>
+                    <p class="email-id">support@arohaninfocare.com</p>
+                    <p>Phone: <a href="#">9312836346</a></p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="about.html" class="text-white">About</a></li>
+                        <li><a href="service.html" class="text-white">Services</a></li>
+                        <li><a href="terms.html" class="text-white">Terms</a></li>
+                        <li><a href="privacy.html" class="text-white">Privacy</a></li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/arohaninfocareprivatelimited/" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/arohan-infocare-610984120/" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h3> <a href="certificate.html" style="text-decoration: none; color: inherit; text-align: left;">
+                            Certificates
+                        </a></h3>
+                    <p><a href="certificate.html" style="text-decoration: none; color: inherit; text-align: left;">ISO
+                            9001:2015</a></p>
+                    <p><a href="certificate.html"
+                            style="text-decoration: none; color: inherit; text-align: left;">MSME</a></p>
+                    <div class="row">
+                        <div class="col-md-6"><a href="certificate.html"><img src="certi.png" alt="" width="110"
+                                    height="150"></a></div>
+                        <div class="col-md-6"><a href="certificate.html"><img src="MSME-Certi.jpg" alt="" width="120"
+                                    height="150"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <p style="text-align: center;">© 2024 Arohan Infocare. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

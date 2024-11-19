@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware - Arohan Infocare</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .hardware-services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .service-box {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .service-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .service-icon {
+            font-size: 30px;
+            /* Reduced font size */
+            color: #007bff;
+            margin-bottom: 20px;
+            transition: border 0.3s ease, padding 0.3s ease;
+        }
+
+        .service-box:hover .service-icon {
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .service-icon img {
+            width: 60px;
+            /* Adjust width for images */
+            height: 60px;
+            /* Adjust height for images */
+        }
+
+        .service-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .service-description {
+            font-size: 14px;
+            color: #6c757d;
+        }
+    </style>       
+</head>
+
+<body>
+    <!-- Navigation Bar --> <!---                                                                                                                                                                            -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html" target="_blank">
+            <img src="bn.png" alt="Arohan Infocare Logo">
+        </a>                              
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html" target="_blank">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="service.html" id="navbarDropdown" aria-haspopup="true"
+                        aria-expanded="false" target="_blank">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="atm.html" target="_blank">ATMS & TMS</a>
+                        <a class="dropdown-item" href="erp.html" target="_blank">Enterprise Resource Planning</a>
+                        <a class="dropdown-item" href="application.html" target="_blank">Application Service</a>
+                        <a class="dropdown-item" href="infrastructure.html" target="_blank">Infrastructure Service</a>
+                        <a class="dropdown-item" href="hardware.html" target="_blank">Hardware Service</a>
+                        <!-- "service.html#hardware-service"-->
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="portfolio.html" target="_blank">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html" target="_blank">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html" target="_blank">Contact</a></li>
+                <!---- <li class="nav-item"><a class="nav-link" href="client.html">Client</a></li>-->
+                <li class="nav-item"><a class="nav-link" href="partner.html" target="_blank">Collaborators</a></li>
+                <li class="nav-item"><a class="nav-link" href="career.html" target="_blank">Career</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <header class="jumbotron text-center mb-5">
+        <h1 class="display-4 pt-5 mb-3">IT Hardware Services</h1>
+        <p class="lead">To have a better functioning and fulfilling all the Software requirements, Networking, Automated
+            System, etc., one need to have a healthy Hardware Infrastructure to support your Day to Day Requirement.</p>
+        <p class="text-center">We deal in fulfilling any kind of IT infra requirements consisting of:-</p>
+    </header>
+
+    <div class="hardware-services ">
+        <div class="service-box mb-4">
+            <div class="service-icon"><img src="image/hardware/pc.png" alt="PC"></div>
+            <div class="service-title">PCs, Laptops, Scanners, Printers, High-end Servers</div>
+            <div class="service-description">We provide a wide range of hardware including PCs, laptops, scanners,
+                printers, and high-end servers to meet all your IT needs.</div>
+        </div>
+        <div class="service-box mb-4">
+            <div class="service-icon"><img src="image/hardware/data.png" alt="Data"></div>
+            <div class="service-title">Data-Backup solutions</div>
+            <div class="service-description">Secure your data with our reliable backup solutions, ensuring your
+                information is safe and recoverable.</div>
+        </div>
+        <div class="service-box mb-4">
+            <div class="service-icon"><img src="image/hardware/wide.png" alt="WAN"></div>
+            <div class="service-title">Wide Area Network (WAN) setup and maintenance</div>
+            <div class="service-description">Our experts set up and maintain WAN for seamless connectivity across vast
+                geographical areas.</div>
+        </div>
+        <div class="service-box mb-4">
+            <div class="service-icon"><img src="image/hardware/local.png" alt="LAN"></div>
+            <div class="service-title">Local Area Network (LAN) setup and maintenance</div>
+            <div class="service-description">Efficient LAN setup and maintenance for robust internal networking within
+                your organization.</div>
+        </div>
+        <div class="service-box mb-4">
+            <div class="service-icon"><img src="image/hardware/upgrade.png" alt="LAN"></div>
+            <div class="service-title">Computer upgrades, annual maintenance contracts etc.</div>
+            <div class="service-description">Keep your systems updated with our upgrade services and benefit from our
+                annual maintenance contracts.</div>
+        </div>
+        <div class="service-box mb-4">
+            <div class="service-icon"><img src="image/hardware/assembling.png" alt="assemble"></div>
+            <div class="service-title">Computer Assembling, Branded Computer Installation</div>
+            <div class="service-description">Professional assembling of custom computers and installation of branded
+                computers for your business.</div>
+        </div>
+        <div class="service-box mb-4">
+            <div class="service-icon"><img src="image/hardware/hubs.png" alt="hubs"></div>
+            <div class="service-title">Hubs, Switches, Cabling</div>
+            <div class="service-description">Comprehensive networking solutions including installation of hubs,
+                switches, and cabling.</div>
+        </div>
+        <div class="service-box mb-4">
+            <div class="service-icon"><img src="image/hardware/firewall.png" alt="firewall"></div>
+            <div class="service-title">Firewall Set Up</div>
+            <div class="service-description">Protect your network with our advanced firewall setup services.</div>
+        </div>
+        <div class="service-box mb-4">
+            <div class="service-icon"><img src="image/hardware/support.png" alt="support"></div>
+            <div class="service-title">Computer Repairing, Software Installation</div>
+            <div class="service-description">Expert computer repairing and software installation services to keep your
+                systems running smoothly.
+            </div>
+        </div>
+        <div class="service-box mb-4">
+            <div class="service-icon"><img src="image/hardware/trouble.png" alt="trouble"></div>
+            <div class="service-title">Trouble Shooting</div>
+            <div class="service-description">Quick and effective troubleshooting to resolve any IT issues you encounter.
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 20px;">
+        <h3>For more details, Contact Us</h3>
+        <p style="margin-left: 50px; margin-right: 50px;">Our dedicated team is here to assist you with all your needs. We are committed to providing top-notch solutions and support, ensuring your
+            projects are successful and efficient.</p>
+        <a href="contact.html" target="_blank" class="btn btn-primary follow-link"
+            style="display: inline-block; margin-top: 10px; margin-bottom: 50px;">Contact Us</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-white">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-md-3">
+                    <h3>Arohan Infocare</h3>
+                    <p>We are an independent firm of Consultants and Technical specialists offering a wide range of
+                        services.</p>
+                    <p>We serve clients at every level of their organization, in every capacity, whether as a consultant
+                        to top management or as a hands-on trainer for front line employees.</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Contact Information</h3>
+                    <p>E-144,Sector 63</p>
+                    <p>Noida, U.P-201301, India</p>
+                    <p class="email-id"><a href="mailto:support@arohaninfocare.com" style="color: #ccc;">support@arohaninfocare.com</a></p>
+                    <p>Phone: <a href="#">9312836346</a></p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="about.html" class="text-white">About</a></li>
+                        <li><a href="service.html" class="text-white">Services</a></li>
+                        <li><a href="terms.html" class="text-white">Terms</a></li>
+                        <li><a href="privacy.html" class="text-white">Privacy</a></li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/arohaninfocareprivatelimited/" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/arohan-infocare-610984120/" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h3> <a href="certificate.html" style="text-decoration: none; color: inherit; text-align: left;">
+                            Certificates </a></h3>
+                    <p><a href="certificate.html" style="text-decoration: none; color: inherit; text-align: left;">ISO
+                            9001:2015</a></p>
+                    <p><a href="certificate.html"
+                            style="text-decoration: none; color: inherit; text-align: left;">MSME</a></p>
+                    <div class="row">
+                        <div class="col-md-6"><a href="certificate.html"><img src="certi.png" alt="" width="110"
+                                    height="150"></a></div>
+                        <div class="col-md-6"><a href="certificate.html"><img src="MSME-Certi.jpg" alt="" width="120"
+                                    height="150"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <p style="text-align: center;">© 2024 Arohan Infocare. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
